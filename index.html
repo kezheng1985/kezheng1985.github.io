@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8fc">
+  <meta name="description" content="五年级语文、数学、英语审题练习，每次五题，练习读准条件、答全要求。">
+  <link rel="manifest" href="./app.webmanifest">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+  <title>长沙审题练习册</title>
+</head>
+<body>
+  <header class="header"><div class="shell header-inner">
+    <a class="brand" href="#home"><span class="brand-icon" aria-hidden="true">▤</span>长沙审题练习册</a>
+    <nav aria-label="主要页面">
+      <a href="#home">练习首页</a><a href="#scores">成绩记录</a>
+    </nav>
+  </div></header>
+  <main id="app" class="shell" tabindex="-1"><p>正在打开练习册…</p></main>
+  <footer class="shell footer"><span>长沙审题练习册</span><span>练习记录保存在此设备</span></footer>
+  <template id="home-template">
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow">五年级上册 · 语文、数学、英语</p>
+      <h1>读完题，再动笔。</h1>
+      <p class="intro">把条件找全，把每一问答齐。<br>从长沙的日常出发，每次练五题。</p>
+      <a href="#practice" class="button primary">开始练习 <span aria-hidden="true">→</span></a></div>
+      <div class="hero-art" aria-hidden="true"></div>
+    </section>
+    <section class="section">
+      <h2>今天练什么？</h2>
+      <div class="tiles">
+        <a class="tile blue" href="#practice"><span class="tile-icon" aria-hidden="true">✎</span><h3>审题练习</h3><p>标出关键词，做完一题就看反馈。</p><span class="tile-foot">5 题 · 10 分钟内 <b aria-hidden="true">↗</b></span></a>
+        <a class="tile gold" href="#test"><span class="tile-icon" aria-hidden="true">☑</span><h3>独立小测</h3><p>自己读题和作答，整组交卷后看结果。</p><span class="tile-foot">5 题 · 10 分钟内 <b aria-hidden="true">↗</b></span></a>
+        <a class="tile green" href="#scores"><span class="tile-icon" aria-hidden="true">▥</span><h3>成绩对比</h3><p>看看最近两次小测，哪些题答得更完整。</p><span class="tile-foot">查看我的记录 <b aria-hidden="true">↗</b></span></a>
+      </div>
+    </section>
+    <section class="bank"><div class="bank-icon" aria-hidden="true">▦</div><div><h2 id="bank-title">本月题库</h2><p id="bank-summary"></p></div><a href="#bank">查看题库 <span aria-hidden="true">→</span></a></section>
+  </template>
+</body>
+</html>

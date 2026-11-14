@@ -1,0 +1,10 @@
+{
+  "name": "长沙审题练习册",
+  "short_name": "审题练习册",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f8fc",
+  "theme_color": "#2054c9"
+}
